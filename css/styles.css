@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+    background-image:url('../img/bg1.jpg');
+    color: white;
+    font-size: 14px;
+}
+
+.site-title {
+    color: blue;
+}
+
+.site-title-box {
+    background-color: yellow;
+    opacity: 1;
+}
+
+.content {
+    font-size: 20px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+a:hover {
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.top-row a {
+    color: black;
+    background-color: yellow;
+    height: 100%;
+}
+
+
+.top-row a:hover {
+    color: black;
+    background-color: orange;
+}
+
+.menu-button {
+    vertical-align: middle;
+}
+
+
+table {
+    border: 0px;
+    width: 80%;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid yellow;
+}
+
+.top-row td {
+    background: yellow;
+}
+
+.menu-photo {
+    text-align: center;
+    width: 100px;
+}

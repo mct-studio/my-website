@@ -1,6 +1,10 @@
+
 body {
     background-color: gray;
-    background-image:url('../img/bg1.jpg');
+    background-image:url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
     color: white;
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

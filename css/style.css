@@ -1,68 +1,92 @@
-* {box-sizing: border-box}
-
-/* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #04AA6D;
+body {
+  background-color: gray;
+  background-image:url('../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-button:hover {
-  opacity:1;
+.site-title {
+  color: rgb(217, 255, 47);
+  font-size: 60px;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+.site-title-box {
+  background: rgb(36,25,0);
+  background: linear-gradient(0deg, rgba(36,25,0,1) 0%, rgba(121,105,9,1) 47%, rgba(206,208,7,1) 100%);
+  opacity: 1;
 }
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+.content {
+  font-size: 20px;
 }
 
-/* Add padding to container elements */
-.container {
-  padding: 16px;
+a.menu {
+  color: yellow;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 5px 5px 5px 5px;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+a.menu:hover {
+  background-color: yellow;
+  color: black;
+  text-decoration: underline;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
+
+.top-row a {
+  color: black;
+  background-color: yellow;
+  height: 100%;
 }
+
+
+.top-row a:hover {
+  color: black;
+  background-color: orange;
+}
+
+.menu-button {
+  vertical-align: middle;
+}
+
+
+table {
+  border: 0px;
+  width: 80%;
+  background-color: black;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+td {
+  border: 1px solid yellow;
+}
+
+.top-row td {
+  background: yellow;
+}
+
+.menu-photo {
+  text-align: center;
+  width: 100px;
+}
+
+.screenshot {
+ width: 250px; 
+ margin: 10px;
+ border: 1px solid white;
+}
+
+.screenshot-link {
+  display: inline-block;
+  color: white;
+}
+
+.kod {
+  color: yellow;
